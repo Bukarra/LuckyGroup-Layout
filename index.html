@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header__container header">
+      <div class="main-logo">
+        <div class="main-logo__circle">
+          <span>G</span>
+        </div>
+        <span class="main-logo__company-name">Global</span>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li class="navbar__el_active"><a href="#">Mobile Top Up</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Rate</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="btn btn__mobile-nav">Sign Up</button>
+      <button class="mobile-nav__container">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <main class="main">
+      <div class="description__container">
+        <div class="headline__container">
+          <h1 class="headline">Now Buy Your <span class="headline_line-break">PIN or <span
+                class="headline_highlighted">Top Up</span></span> With Bank Transfer</h1>
+          <!-- <p class="headline-text">We Make international calling simple, relible, and cheap basedon your unique calling
+            behavior. </p> -->
+        </div>
+        <div class="btn__container">
+          <button type="button" class="btn">Get Started</button>
+        </div>
+        <div class="search-form__container">
+          <form action="#" class="search-form">
+            <input pattern="[^!@#$%^&*()]{4,12}" id="search-form__input-id" class="search-form__input" type="text"
+              name="search" value="">
+            <label class="search-form__label" for="search-form__input-id">Where do you want to call?</label>
+            <button type="submit" aria-label="Search" class="search-form__btn">
+              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.4267 20.9866C17.1518 20.9866 20.9822 17.1561 20.9822 12.431C20.9822 7.70594 17.1518 3.87549 12.4267 3.87549C7.70155 3.87549 3.87109 7.70594 3.87109 12.431C3.87109 17.1561 7.70155 20.9866 12.4267 20.9866Z"
+                  stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M23.1208 23.1252L18.4688 18.4731" stroke="white" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+          </form>
+        </div>
+        <section class="regular-users regular-users__container">
+          <ul class="regular-users__images">
+            <li class="regular-user">
+              <button type="button" aria-label="Add user" class="regular-user__btn"><svg width="19" height="19"
+                  viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.5 3.95837V15.0417" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M3.95703 9.5H15.0404" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </button>
+            </li>
+            <li class="regular-user"><img src="images/person3.png" alt="Regular user"></li>
+            <li class="regular-user"><img src="images/person2.png" alt="Regular user"></li>
+            <li class="regular-user"><img src="images/person1.png" alt="Regular user"></li>
+          </ul>
+          <p class="regular-users__text-about">45k+ Regular User. <a href="#">View Price Plan</a></p>
+        </section>
+      </div>
+      <div class="bg-images__container">
+        <div class="bg-images__orbit">
+          <div class="bg-images__planet-small bg-images__planet-small_left">
+            <img src="images/india.png" alt="Flag of India">
+          </div>
+          <div class="bg-images__planet-extra-large">
+            <img src="images/great-britain.png" alt="Flag of Great Britain">
+          </div>
+          <div class="bg-images__planet-medium">
+            <img src="images/italy.png" alt="Flag of Italy">
+          </div>
+          <div class="bg-images__planet-large">
+            <img src="images/india.png" alt="Flag of India">
+          </div>
+          <div class="bg-images__planet-small bg-images__planet-small_right">
+            <img src="images/india.png" alt="Flag of India">
+          </div>
+        </div>
+        <div class="bg-images__inner-circle"></div>
+        <img class="bg-images__foreground-image" src="images/fg-image.png" alt="Foreground image">
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
